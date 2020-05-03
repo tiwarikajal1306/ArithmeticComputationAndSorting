@@ -21,6 +21,7 @@ do
 array[counter++]=${result[$i]}
 done
 echo ${array[@]}
-
+decending=`printf "%s\n" ${array[@]} | sort -nr `
+echo $decending
 
 
